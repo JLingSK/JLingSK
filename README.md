@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JLingSK
 - 👀 I’m interested in Github
-- 🌱 I’m currently learning about scripting using R Studio
+- 🌱 I’m currently learning about GitHub, wondering what can be done on this platform
 - 📫 I can be reached via polibear6153@gmail.com
 
 <!---
