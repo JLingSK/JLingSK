@@ -1,0 +1,17 @@
+#Import data
+#Example 1 link to github raw data online
+
+vaxdata<-read.csv("https://raw.githubusercontent.com/MoH-Malaysia/covid19-public/main/vaccination/vax_malaysia.csv")
+
+#Export data
+#Example 1 Export to CSV file
+write.csv(vaxdata,"vax.csv") #vaxdata is the name for your data frame, you can set as you like, same goes with vax.csv, remember to keep the .csv behind
+write_csv(vaxdata,"vax1.csv") #vaxdata is the name for your data frame, you can set as you like, same goes with vax1.csv, remember to keep the .csv behind
+
+#Example 2 Export to XLS file
+write_excel_csv(vaxdata,"vaxexcel.xls") #vaxdata is the name for your data frame, you can set as you like, same goes with vaxexcel.xls, remember to keep the .xls behind
+
+#Import data manually
+#clicking
+covid<-read.csv("C:/Users/60102/OneDrive/Desktop/RDG/R video/Project 3/vax.csv") #path of your files
+vax111<-read.csv("vax1.csv") #vax111 is the name for your data frame, you can set as you like, vax1.csv refers to the file in your work directory
