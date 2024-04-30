@@ -1,0 +1,27 @@
+1.0 DOWNLOAD
+
+# Download the packages needed (I got mine from the cran,r-project website), listed below
+1. quadprog
+2. zoo
+3. xts
+4. curl
+5. TTR
+6. tseries
+
+Rtools compatible to R-3.6.x (I used R-3.6.x is because this version of R is compatible to my SPSS.
+
+
+1.1 INSTALLATION
+
+# change the 'path' according to your file location.
+# change the 'file names' according to the package you had downloaded.
+
+install.packages("path/tseries_0.10-47.orig.tar.gz", repos = NULL, type = "source")
+
+copypaste the above formula to your R, for every package installed
+#install the tseries package last
+#take note of the error shown in the R, install the relevant packages if indicated
+
+
+2.0 R plugin in SPSS
+1. get the R-configuration extension in your SPSS's extension hub. (check for compatibility)
